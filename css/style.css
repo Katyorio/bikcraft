@@ -80,7 +80,7 @@ footer {
   text-align: end;
   color: #c6c6c6;
   margin-right: 20px;
-  position: absolute;
+  /* position: absolute; */
   word-break: break-word;
   background-image: url("../img/onda.svg");
   background-repeat: repeat;
@@ -89,10 +89,11 @@ footer {
   /* height: 300px; */
   /* min-height: 30%; */
   /* width: 100%; */
-  position: absolute;
+  /* position: absolute; */
   /* z-index: -1; */
   /* object-fit: cover; */
   /* background-color: blue; */
+  /* max-width: fit-content; */
 }
 .vantagenstxt {
   font-size: 1rem;
@@ -101,7 +102,7 @@ footer {
   align-items: center;
   color: #c6c6c6;
   padding: 2% 0%;
-  position: relative;
+  /* position: relative; */
 }
 
 .spec {
@@ -177,4 +178,27 @@ p.texto {
 ol {
   list-style: none;
   padding-left: 0px;
+}
+
+@media (max-width: 1000px) {
+  .parte2,
+  .parte1 {
+    grid-template-columns: 1fr;
+  }
+
+  .texto1 {
+    text-align: center;
+    justify-items: center;
+    padding: 0px 20px;
+    margin-bottom: 20px;
+  }
+
+  .parte2 h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 20px;
+  }
+  .img-risco::after {
+    display: none;
+  }
 }
