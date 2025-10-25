@@ -126,6 +126,11 @@ footer {
 .spec h2 {
   margin-bottom: 10px;
 }
+
+.spec p::first-letter {
+  color: red;
+}
+
 li:nth-child(odd) {
   background: #f7f7f7;
 }
