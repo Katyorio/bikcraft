@@ -195,7 +195,7 @@ ol {
   .parte2,
   .parte1 {
     grid-template-columns: 1fr;
-    padding-top: 30px;
+    padding-top: 2rem;
   }
 
   .texto1 {
