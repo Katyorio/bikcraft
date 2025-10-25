@@ -195,6 +195,7 @@ ol {
   .parte2,
   .parte1 {
     grid-template-columns: 1fr;
+    padding-top: 30px;
   }
 
   .texto1 {
@@ -222,7 +223,7 @@ ol {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 579px) {
   .parte1 {
     margin-top: 30px;
   }
